@@ -1,11 +1,11 @@
-/* dichiarazione variabili php e str_replace */
+<!-- /* dichiarazione variabili php e str_replace */ -->
 <?php
 $bad_word = "jacopo";
 $paragraph ="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas ipsum vero blanditiis, jacopo campione perspiciatis aliquid enim soluta assumenda vel cupiditate totam pariatur asperiores exercitationem beatae fuga animi labore nisi quibusdam.";
 $clean = str_replace($bad_word, "***", $paragraph);
 ?>
 
-/* corpo html */
+<!-- /* corpo html */ -->
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
